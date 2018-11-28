@@ -1,0 +1,28 @@
+{
+  "name": "point-in-geometry",
+  "version": "0.0.3",
+  "description": "> Easy way to test points in circles and polygons, perfect for maps.",
+  "source": "src",
+  "repository": "git+https://github.com/luizfer/point-in-geometry.git",
+  "author": "Luiz Fernando <luizfernandofernandes.lf@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/luizfer/point-in-geometry#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^0.63.4",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "main": "dist/point-in-geometry.cjs.js",
+  "module": "dist/point-in-geometry.esm.js",
+  "browser": "dist/point-in-geometry.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}
