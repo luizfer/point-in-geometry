@@ -1,7 +1,6 @@
 # Point In Geometry
 > Easy way to test points in circles and polygons, perfect for maps
 
-[![NPM Version][npm-image]][npm-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
 ## Installation
