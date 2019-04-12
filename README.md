@@ -35,3 +35,4 @@ PointInPolygon([0, 1], [[0, 2], [2, 1], [1, 3], [3, 1]]);
 
 <!-- Markdown link & img dfn's -->
 [npm-url]: https://www.npmjs.com/package/point-in-geometry
+[npm-downloads]: https://img.shields.io/npm/dm/point-in-geometry.svg?style=flat-square
